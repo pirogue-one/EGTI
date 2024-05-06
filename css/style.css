@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "PeridotPE-Compressed", "Roboto Condensed", sans-serif;
+    src: url("../fonts/PeridotPE-CompressedMedium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "PeridotPE-Wide", "Roboto Condensed", sans-serif;
+    src: url("../fonts/PeridotPE-WideSemiBold.ttf");
+    font-weight: 600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('./main.css');
