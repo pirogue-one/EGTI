@@ -29,11 +29,12 @@ a {
 }
 
 .content-wrapper {
-    max-width: 1540px;
+    max-width: 1498px;
     margin: 0 auto;
 }
 
 /* ------------INDEX PAGE----------- */
+
 /* -----header----- */
 .upper-header-wrapper {
     background-color: #ebe8e5;
@@ -43,7 +44,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 30px;
+    padding: 8px 51px;
 }
 
 .authorities,
@@ -82,7 +83,7 @@ a {
 
 .header,
 .footer {
-    padding: 20px 30px;
+    padding: 20px 51px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -159,8 +160,50 @@ a {
     padding-right: 10px;
 }
 
+/* --------main-------- */
+
+.main {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.main-content {
+    flex-grow: 0;
+    width: calc(100% - 51px);
+}
+
+.nav-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
+    background-color: #ff86d7;
+    padding: 8.5rem 0.75rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 51px;
+    align-self: stretch;
+}
+
+.nav-social-item a {
+    width: 27px;
+}
+
+/* -------hero------- */
+
+.hero-swiper {
+    width: 100%;
+    height: 590px;
+    overflow: hidden;
+    position: relative;
+}
+
 .swiper-wrapper {
-    overflow-x: hidden;
+    width: 100%;
 }
 
 .swiper-slide {
@@ -170,9 +213,40 @@ a {
 }
 
 .swiper-slide img {
+    display: block;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
+.hero-nav-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    padding: 0 51px;
+    transform: translateY(-50%);
+}
+
+.hero-swiper .swiper-pagination {
+    bottom: 30px;
+}
+
+.hero-swiper .swiper-pagination-bullet {
+    height: 14px;
+    width: 14px;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    opacity: 1;
+    margin: 0 8px !important;
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+    background-color: #FFF;
+}
 
 /* announcement cards */
 
@@ -236,7 +310,7 @@ a {
     height: 100%;
 }
 
-.swiper-wrapper__announcement,
+.swiper-announcement .swiper-wrapper,
 .swiper-wrapper__graduates {
     transform: translate3d(14%, 0, 0) !important;
     display: flex;
