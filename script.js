@@ -2,7 +2,7 @@
 
 const swiper = new Swiper('.hero-swiper', {
     speed: 400,
-    spaceBetween: 100,
+    spaceBetween: 200,
     direction: 'horizontal',
     allowTouchMove: true,
     navigation: {
@@ -14,17 +14,17 @@ const swiper = new Swiper('.hero-swiper', {
         el: ".swiper-pagination",
     },
 });
+const swiperAnnouncement = new Swiper('#swiper-announcement', {
+    // Optional parameters
+    direction: 'horizontal',
+    slidesPerView: 'auto',
+    loop: true,
+    spaceBetween: 20,
 
-  const swiperAnnouncement = new Swiper('.swiper-announcement', {
-      // Optional parameters
-      direction: 'horizontal',
-      slidesPerView: 3,
-      spaceBetween: 20,
-    
-      // Navigation arrows
-      navigation: {
+    // Navigation arrows
+    navigation: {
         enabled: true,
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
-      }
-    });  
+        nextEl: '#ann-button-next',
+        prevEl: '#ann-button-prev'
+    }
+}); 
