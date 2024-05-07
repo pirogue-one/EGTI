@@ -85,8 +85,8 @@
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="hero-nav-btns">
-                    <div class="hero-button-prev"><img src="./images/prev.png" width="20" alt=""></div>
-                    <div class="hero-button-next"><img src="./images/next.png" width="20" alt=""></div>
+                    <div class="hero-button-prev"><img src="./images/prev.png" width="20" alt="Стрелка назад"></div>
+                    <div class="hero-button-next"><img src="./images/next.png" width="20" alt="Стрелка вперед"></div>
                 </div>
             </section>
             <section class="cards">
@@ -166,9 +166,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ann-nav-btns">
-                        <div class="ann-button-prev" id="ann-button-prev"></div>
-                        <div class="ann-button-next" id="ann-button-next"></div>
+                    <div class="cards-btn">
+                        <div class="cards-btn-prev" id="ann-button-prev"><img width="10" src="./images/arrow-prev.png"
+                                alt="Стрелка назад"></div>
+                        <div class="cards-btn-next" id="ann-button-next"><img width="10" src="./images/arrow-next.png"
+                                alt="Стрелка вперед"></div>
                     </div>
                 </div>
             </section>
@@ -199,7 +201,162 @@
                     <p class="cards-header__text narrow-text color-white">Образование</p>
                 </div>
             </section>
-            
+            <section class="cards">
+                <div class="cards-header cards-header__news">
+                    <p class="cards-header__text narrow-text">НОВОСТИ</p>
+                </div>
+                <div class="swiper-announcement" id="swiper-news">
+                    <div class="swiper-wrapper">
+                        <div class="card swiper-slide swiper-slide__announcement">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="./images/news1.png" alt="картинка анонса">
+                            </div>
+                            <div class="card__text-wrapper">
+                                <p class="narrow-text text-24">13.12.2024</p>
+                                <p class="card__text"><a class="card__text" href="#">Краткий текст про данное событие,
+                                        дающее представление о теме данной новостиу</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide swiper-slide__announcement">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="./images/news2.png" alt="картинка новостей">
+                            </div>
+                            <div class="card__text-wrapper">
+                                <p class="narrow-text text-24">13.12.2024</p>
+                                <p class="card__text"><a class="card__text" href="#">Краткий текст про данное событие,
+                                        дающее представление о теме данной новости</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide swiper-slide__announcement">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="./images/news1.png" alt="картинка новостей">
+                            </div>
+                            <div class="card__text-wrapper">
+                                <p class="narrow-text text-24">13.12.2024</p>
+                                <p class="card__text"><a class="card__text" href="#">Краткий текст про данное событие,
+                                        дающее представление о теме данной новости</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide swiper-slide__announcement">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="./images/news1.png" alt="картинка новостей">
+                            </div>
+                            <div class="card__text-wrapper">
+                                <p class="narrow-text text-24">13.12.2024</p>
+                                <p class="card__text"><a class="card__text" href="#">Краткий текст про данное событие,
+                                        дающее представление о теме данной новости</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-btn">
+                        <div class="cards-btn-prev" id="news-button-prev"><img width="10" src="./images/arrow-prev.png"
+                                alt="Стрелка назад"></div>
+                        <div class="cards-btn-next" id="news-button-next"><img width="10" src="./images/arrow-next.png"
+                                alt="Стрелка вперед"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="cards cards-bg">
+                <div class="cards-header cards-header__graduates">
+                    <p class="cards-header__text cards-header__text-green narrow-text">ВЫПУСКНИКИ</p>
+                </div>
+                <div class="swiper-announcement" id="swiper-graduates">
+                    <div class="swiper-wrapper swiper-wrapper__graduates">
+                        <div class="card swiper-slide swiper-slide__graduates">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image-v" src="./images/v1.png" alt="выпускник">
+                            </div>
+                            <div class="card__text-wrapper">
+                                <p class="narrow-text text-24 text-color__black">Михаил Быков</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide swiper-slide__graduates">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image-v" src="./images/v2.png" alt="выпускник">
+                            </div>
+                            <div class="card__text-wrapper">
+                                <p class="narrow-text text-24 text-color__black">Вячеслав Анисимов</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide swiper-slide__graduates">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image-v" src="./images/v3.png" alt="выпускник">
+                            </div>
+                            <div class="card__text-wrapper">
+                                <p class="narrow-text text-24 text-color__black">Надежда Холмогорова</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide swiper-slide__graduates">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image-v" src="./images/v4.png" alt="выпускник">
+                            </div>
+                            <div class="card__text-wrapper">
+                                <p class="narrow-text text-24 text-color__black">Николай Коляда</p>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide swiper-slide__graduates">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image-v" src="./images/v1.png" alt="выпускник">
+                            </div>
+                            <div class="card__text-wrapper">
+                                <p class="narrow-text text-24 text-color__black">Михаил Быков</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-btn">
+                        <div class="cards-btn-prev" id="grad-button-prev"><img width="10" src="./images/arrow-prev.png"
+                                alt="Стрелка назад"></div>
+                        <div class="cards-btn-next" id="grad-button-next"><img width="10" src="./images/arrow-next.png"
+                                alt="Стрелка вперед"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="cards">
+                <div class="cards-header">
+                    <p class="cards-header__text cards-header__text-green narrow-text">ПАРТНЕРЫ</p>
+                </div>
+                <div class="swiper-announcement" id="swiper-partners">
+                    <div class="swiper-wrapper swiper-wrapper__announcement">
+                        <div class="card swiper-slide swiper-slide__announcement">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="./images/photo-1.png" alt="картинка анонса">
+                            </div>
+                        </div>
+                        <div class="card swiper-slide swiper-slide__announcement">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="./images/photo-1.png" alt="картинка анонса">
+                            </div>
+                        </div>
+                        <div class="card swiper-slide swiper-slide__announcement">
+                            <a href="#" class="card-link"></a>
+                            <div class="card__image-wrapper">
+                                <img class="card__image" src="./images/photo-1.png" alt="картинка анонса">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-btn">
+                        <div class="cards-btn-prev" id="partners-button-prev"><img width="10" src="./images/arrow-prev.png"
+                                alt="Стрелка назад"></div>
+                        <div class="cards-btn-next" id="partners-button-next"><img width="10" src="./images/arrow-next.png"
+                                alt="Стрелка вперед"></div>
+                    </div>
+                </div>
+            </section>
         </div>
         <div class="nav-socials">
             <a class="nav-social-item" href="/">

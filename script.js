@@ -28,3 +28,48 @@ const swiperAnnouncement = new Swiper('#swiper-announcement', {
         prevEl: '#ann-button-prev'
     }
 }); 
+
+const swiperNews = new Swiper('#swiper-news', {
+    // Optional parameters
+    direction: 'horizontal',
+    slidesPerView: 'auto',
+    loop: true,
+    spaceBetween: 20,
+
+    // Navigation arrows
+    navigation: {
+        enabled: true,
+        nextEl: '#news-button-next',
+        prevEl: '#news-button-prev'
+    }
+}); 
+
+const swiperGraduates = new Swiper('#swiper-graduates', {
+    // Optional parameters
+    direction: 'horizontal',
+    slidesPerView: 'auto',
+    loop: true,
+    spaceBetween: 20,
+
+    // Navigation arrows
+    navigation: {
+        enabled: true,
+        nextEl: '#grad-button-next',
+        prevEl: '#grad-button-prev'
+    }
+}); 
+
+const swiperPartners = new Swiper('#swiper-partners', {
+    // Optional parameters
+    direction: 'horizontal',
+    slidesPerView: 'auto',
+    loop: true,
+    spaceBetween: 20,
+
+    // Navigation arrows
+    navigation: {
+        enabled: true,
+        nextEl: '#partners-button-next',
+        prevEl: '#partners-button-prev'
+    }
+}); 
