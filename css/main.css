@@ -1,13 +1,14 @@
 @font-face {
-    font-family: "PeridotPE-Compressed", "Roboto Condensed", sans-serif;
-    src: url("../fonts/PeridotPE-CompressedMedium.ttf") format("ttf");
+    font-family: "PeridotPE-Compressed";
+    src: url("../fonts/PeridotPE-CompressedMedium.woff") format("woff"),
+        url("../fonts/PeridotPE-CompressedMedium.ttf") format("ttf");
     font-weight: 500;
 }
 
 @font-face {
-    font-family: "PeridotPE-Wide", "Roboto Condensed", sans-serif;
+    font-family: "PeridotPE-Wide";
     src: url("../fonts/PeridotPE-WideSemiBold.woff") format("woff"),
-    url("../fonts/PeridotPE-WideSemiBold.ttf") format("ttf");
+        url("../fonts/PeridotPE-WideSemiBold.ttf") format("ttf");
     font-weight: 600;
 }
 
@@ -15,7 +16,158 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "PeridotPE-Wide", "Roboto Condensed", sans-serif;
+    font-family: "PeridotPE-Wide", sans-serif;
 }
 
-a {text-decoration: none;}
+html,
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-wrapper {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+/* ------------INDEX PAGE----------- */
+/* -----header----- */
+.upper-header-wrapper {
+    background-color: #ebe8e5;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+}
+
+.authorities,
+.authorities-item,
+.lang,
+.log-in {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.upper-header-text {
+    font-size: 0.5rem;
+    color: #9b8e91;
+}
+
+.authorities-img {
+    width: 32px;
+    height: 32px;
+}
+
+.log-in-img {
+    width: 17px;
+    height: 17px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 3.75rem;
+}
+
+.blue-text {
+    color: #00d4a6;
+}
+
+.header {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 5fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    width: 30%;
+}
+
+.logo-img {
+    width: 69px;
+    height: 41px;
+    align-self: end;
+}
+
+.logo-name {
+    font-size: 0.625rem;
+    letter-spacing: 1px;
+}
+
+.logo p {
+    font-size: 0.375rem;
+    color: #afacaa;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap:2.125rem;
+}
+
+.main-nav-item a{
+    font-size: 1.5rem;
+}
+
+.narrow-text a {
+font-family: "PeridotPE-Compressed", "Roboto Condensed", sans-serif !important;
+    text-transform: uppercase;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.navigation a {
+    color: #000;
+}
+
+.sub-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    list-style: none;
+}
+
+.sub-nav-item a {
+    font-size: 0.75rem;
+    line-height: 80%;
+}
+
+.sub-nav-item:not(:last-child) {
+    border-right: 3px solid #00d4a6;
+    padding-right: 10px;
+}
+
+.swiper-wrapper {
+    overflow-x: hidden;
+
+}
+
+.swiper-slide {
+    height: 590px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+

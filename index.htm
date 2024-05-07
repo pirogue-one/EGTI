@@ -5,30 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ЕГТИ - Главная</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./script.js"></script>
 </head>
 
-<body>
-    <div class="header-wrapper">
-        <div class="upeer-header">
-            <div class="authorities">
-                <div class="authorities-item">
-                    <img class="authorities-img" src="images/icon-1.png" class="img" alt="Герб">
-                    <p class="authorities-name">минкульт рф</p>
+<body ontouchstart="">
+    <div class="header-wrapper content-wrapper">
+        <div class="upper-header-wrapper">
+            <div class="upper-header ">
+                <div class="authorities">
+                    <div class="authorities-item">
+                        <img class="authorities-img" src="images/icon-1.png" class="img" alt="Герб">
+                        <p class="upper-header-text">МИНКУЛЬТ РФ</p>
+                    </div>
+                    <div class="authorities-item">
+                        <img class="authorities-img" src="images/icon-1.png" alt="Герб">
+                        <p class="upper-header-text">МИНОБРНАУКИ РФ</p>
+                    </div>
+                    <div class="authorities-item">
+                        <p class="upper-header-text">ФУМО «СЦЕНИЧЕСКИЕ ИСКУССТВА И</br>ЛИТЕРАТУРНОЕ ТВОРЧЕСТВО»</p>
+                    </div>
                 </div>
-                <div class="authorities-item">
-                    <img class="authorities-img" src="images/icon-1.png" class="img" alt="Герб">
-                    <p class="authorities-name">минобрнауки рф</p>
-                </div>
-                <div class="authorities-item">
-                    <p class="authorities-name">фумо «сценичиские искусства и литературное творчество»</p>
+                <div class="options">
+                    <a href="/" class="upper-header-text blue-text">Запись на курсы</a>
+                    <div class="log-in">
+                        <img src="images/icon-2.png" class="log-in-img" alt="Пользователь">
+                        <p class="upper-header-text">ЭИОС</p>
+                    </div>
+                    <div class="lang">
+                        <p class="upper-header-text">RUS</p>
+                        <p class="upper-header-text">ENG</p>
+                    </div>
                 </div>
             </div>
         </div>
-        
-        <header class="header">
-
+        <header class="header content-wrapper">
+            <div class="logo">
+                <img class="logo-img" src="./images/logo.png" alt="Лого">
+                <h3 class="logo-name">ЕКАТЕРИНБУРГСКИЙ</br>
+                    ГОСУДАРСТВЕННЫЙ</br>
+                    ТЕАТРАЛЬНЫЙ</br>
+                    ИНСТИТУТ</h3>
+                <div></div>
+                <p>История – с 1932 года</p>
+            </div>
+            <div class="navigation">
+                <ul class="main-nav">
+                    <li class="main-nav-item narrow-text"><a href="">о егти</a></li>
+                    <li class="main-nav-item narrow-text"><a href="">образование</a></li>
+                    <li class="main-nav-item narrow-text"><a href="">студентам</a></li>
+                    <li class="main-nav-item narrow-text"><a href="">абитуриентам</a></li>
+                    <li class="main-nav-item narrow-text"><a href="">дополнительное образование</a></li>
+                </ul>
+                <ul class="sub-nav">
+                    <li class="sub-nav-item"><a href="">проекты</a></li>
+                    <li class="sub-nav-item"><a href="">международное сотрудничество</a></li>
+                    <li class="sub-nav-item"><a href="">центр прототипов</a></li>
+                    <li class="sub-nav-item"><a href="">учебный театр</a></li>
+                    <li class="sub-nav-item"><a href="">выпускники</a></li>
+                    <li class="sub-nav-item"><a href="">сми</a></li>
+                    <li class="sub-nav-item"><a href="">контакты</a></li>
+                </ul>
+            </div>
         </header>
+        <main>
+            <div class="main-content">
+                <section class="hero-swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./images/photo-1.png" alt="Баннер"></div>
+                        <div class="swiper-slide"><img src="./images/photo-1.png" alt="Баннер"></div>
+                        <div class="swiper-slide"><img src="./images/photo-1.png" alt="Баннер"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </section>
+            </div>
+            <div class="nav-socials"></div>
+        </main>
     </div>
 </body>
 
