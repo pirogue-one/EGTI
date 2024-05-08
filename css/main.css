@@ -94,9 +94,9 @@ a {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 5fr 1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 16px;
     grid-row-gap: 10px;
-    width: 30%;
+    width: 20%;
 }
 
 .logo-img {
@@ -497,7 +497,7 @@ a {
 }
 
 .card__image-v {
-    width: 210px !important;
+    width: 100%;
 }
 
 .swiper-slide__graduates {
@@ -507,6 +507,11 @@ a {
     width: 16% !important;
     flex-shrink: 0;
     height: 100%;
+}
+
+/* --------partners-------- */
+section.cards_partners {
+    align-items: center;
 }
 
 /* footer */
