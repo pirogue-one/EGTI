@@ -19,7 +19,7 @@ const swiperAnnouncement = new Swiper('#swiper-announcement', {
     direction: 'horizontal',
     slidesPerView: 'auto',
     loop: true,
-    spaceBetween: 20,
+    spaceBetween: 10,
 
     // Navigation arrows
     navigation: {
@@ -34,7 +34,7 @@ const swiperNews = new Swiper('#swiper-news', {
     direction: 'horizontal',
     slidesPerView: 'auto',
     loop: true,
-    spaceBetween: 20,
+    spaceBetween: 10,
 
     // Navigation arrows
     navigation: {

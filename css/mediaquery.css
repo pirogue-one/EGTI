@@ -1,0 +1,32 @@
+@media screen and (max-width: 1140px) {
+    /* .options {
+        gap: 2rem;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .navigation {
+        align-items: center;
+    }
+
+    .upper-header {
+        padding: 8px 20px;
+    }
+
+    .header,
+    .footer,
+    .cards,
+    .info {
+        padding: 30px 20px;
+    }
+
+
+    .cards-header__text {
+        font-size: 2.5rem;
+    } */
+}

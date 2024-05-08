@@ -45,7 +45,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 51px;
+    padding: 8px 86px;
 }
 
 .authorities,
@@ -54,11 +54,11 @@ a {
 .log-in {
     display: flex;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.6rem;
 }
 
 .upper-header-text {
-    font-size: 0.5rem;
+    font-size: 0.688rem;
     color: #9b8e91;
 }
 
@@ -75,7 +75,7 @@ a {
 .options {
     display: flex;
     align-items: center;
-    gap: 3.75rem;
+    gap: 90px;
 }
 
 .blue-text {
@@ -84,7 +84,7 @@ a {
 
 .header,
 .footer {
-    padding: 20px 51px;
+    padding: 20px 86px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,7 +101,6 @@ a {
 
 .logo-img {
     width: 69px;
-    height: 41px;
     align-self: end;
 }
 
@@ -119,11 +118,12 @@ a {
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 2.125rem;
+    gap: 47px;
 }
 
 .main-nav-item a {
-    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-size: 1.688rem;
 }
 
 
@@ -137,7 +137,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 0.5rem;
+    gap: 12px;
 }
 
 .navigation a {
@@ -147,13 +147,13 @@ a {
 .sub-nav {
     display: flex;
     align-items: center;
-    gap: 0.625rem;
+    gap: 12px;
     list-style: none;
 }
 
 .text-16,
 .sub-nav-item a {
-    font-size: 0.6rem;
+    font-size: 0.688rem;
     line-height: 80%;
     text-transform: uppercase;
 }
@@ -163,7 +163,7 @@ a {
     float: right;
     color: #00d4a6;
     font-weight: 600;
-    padding-left: 10px;
+    padding-left: 12px;
 }
 
 .sub-nav-item:last-child::after {
@@ -190,9 +190,9 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 5rem;
+    gap: 74px;
     background-color: #ff86d7;
-    padding: 8.5rem 0.75rem;
+    padding: 154px 0;
     flex-grow: 0;
     flex-shrink: 0;
     width: 51px;
@@ -262,7 +262,7 @@ a {
 
 .cards {
     display: flex;
-    padding: 3.3rem 0 3.3rem 3.188rem;
+    padding: 52px 0 52px 134px;
     position: relative;
     justify-content: space-between;
 }
@@ -278,7 +278,7 @@ a {
 }
 
 .cards-header__text {
-    font-size: 4.438rem;
+    font-size: 3rem;
     line-height: 0.6;
     color: #ff86d7;
     font-weight: 400;
@@ -291,6 +291,7 @@ a {
 
 .card__image-wrapper {
     position: relative;
+    font-size: 0;
 }
 
 .card__image {
@@ -299,8 +300,8 @@ a {
 
 .card__date {
     position: absolute;
-    top: 1%;
-    left: 3%;
+    top: 6%;
+    left: 6%;
     font-size: 4.438rem;
     line-height: 100%;
     color: #ff86d7;
@@ -308,7 +309,7 @@ a {
 }
 
 .card__text-wrapper {
-    padding: 1rem;
+    padding: 13px 30px;
 }
 
 .card__text {
@@ -320,7 +321,7 @@ a {
 
 .swiper-announcement {
     overflow: hidden;
-    width: calc(100% - 71px);
+    width: calc(100% - 60px);
     position: relative;
 }
 
@@ -410,10 +411,10 @@ a {
 
 .info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #f5f3f2;
-    padding: 5rem 0;
+    padding: 68px 134px 68px 200px;
 }
 
 .info-container {
@@ -423,10 +424,14 @@ a {
 }
 
 .info-text {
-    font-size: 0.875rem;
+    font-size: 0.813rem;
     line-height: 120%;
     font-weight: 400;
     color: #000000;
+}
+
+.info-text-span {
+    font-size: 4.375rem;
 }
 
 .info-text span {
@@ -435,6 +440,10 @@ a {
 
 .text-32 {
     font-size: 2rem;
+}
+
+img.logo-img__info {
+    width: 114px;
 }
 
 /* blocks */
@@ -453,10 +462,11 @@ a {
 
 .blocks-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     align-items: center;
-    padding: 2rem 3rem;
+    padding: 38px 60px;
+    gap: 16px;
 }
 
 .blocks {
@@ -478,6 +488,10 @@ a {
     gap: 1rem;
 }
 
+#swiper-news .card__text-wrapper {
+    padding: 28px 30px;
+}
+
 .cards-header__news {
     bottom: 41%;
 }
@@ -488,8 +502,9 @@ a {
     color: #00d4a6;
 }
 
-.cards-bg {
+.cards-bg-padding {
     background-color: #f5f3f2;
+    padding: 80px 0 80px 134px;
 }
 
 .cards-header__graduates {
@@ -518,6 +533,7 @@ section.cards_partners {
 
 footer {
     background-color: #2e3237;
+    padding-top: 84px;
 }
 
 .color-white,
@@ -538,8 +554,9 @@ footer {
     gap: 0.5rem;
 }
 
-.footer-bottom {
+.footer-padding {
     padding-bottom: 0;
+    padding-top: 64px;
 }
 
 .footer-container {
