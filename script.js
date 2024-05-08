@@ -26,6 +26,17 @@ const swiperAnnouncement = new Swiper('#swiper-announcement', {
     autoplay: {
         delay: 2000,
     },
+    breakpoints: {
+        // when window width is >= 320px
+        1140: {
+          slidesPerView: 'auto',
+          spaceBetween: 10
+        },
+        900: {
+            slidesPerView: 2,
+            spaceBetween: 10
+          },
+      },
 
     // Navigation arrows
     navigation: {
@@ -44,6 +55,17 @@ const swiperNews = new Swiper('#swiper-news', {
     autoplay: {
         delay: 3200,
     },
+    breakpoints: {
+        // when window width is >= 320px
+        1140: {
+          slidesPerView: 'auto',
+          spaceBetween: 10
+        },
+        900: {
+            slidesPerView: 2,
+            spaceBetween: 10
+          },
+      },
 
     // Navigation arrows
     navigation: {
@@ -62,6 +84,17 @@ const swiperGraduates = new Swiper('#swiper-graduates', {
     autoplay: {
         delay: 2000,
     },
+    breakpoints: {
+        // when window width is >= 320px
+        1140: {
+          slidesPerView: 'auto',
+          spaceBetween: 10
+        },
+        900: {
+            slidesPerView: 4,
+            spaceBetween: 10
+          },
+      },
 
     // Navigation arrows
     navigation: {
