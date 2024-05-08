@@ -486,7 +486,8 @@ footer {
     display: flex;
     flex-direction: column;
     border-radius: 5%;
-    padding: 2rem 0.5rem 4rem;
+    padding: 2rem 0.5rem 2.5rem;
+    gap: 0.5rem;
 }
 
 .footer-bottom {
@@ -501,10 +502,20 @@ footer {
 .footer-container__group {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 6rem;
+}
+
+.footer__group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
 }
 
 
 .text-color__black {
     color: #000000;
+}
+
+.color-pink {
+    color: #ff86d7;
 }
