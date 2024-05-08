@@ -29,14 +29,14 @@ const swiperAnnouncement = new Swiper('#swiper-announcement', {
     breakpoints: {
         // when window width is >= 320px
         1140: {
-          slidesPerView: 'auto',
-          spaceBetween: 10
+            slidesPerView: 'auto',
+            spaceBetween: 10
         },
         900: {
             slidesPerView: 2,
             spaceBetween: 10
-          },
-      },
+        },
+    },
 
     // Navigation arrows
     navigation: {
@@ -58,14 +58,14 @@ const swiperNews = new Swiper('#swiper-news', {
     breakpoints: {
         // when window width is >= 320px
         1140: {
-          slidesPerView: 'auto',
-          spaceBetween: 10
+            slidesPerView: 'auto',
+            spaceBetween: 10
         },
         900: {
             slidesPerView: 2,
             spaceBetween: 10
-          },
-      },
+        },
+    },
 
     // Navigation arrows
     navigation: {
@@ -87,14 +87,14 @@ const swiperGraduates = new Swiper('#swiper-graduates', {
     breakpoints: {
         // when window width is >= 320px
         1140: {
-          slidesPerView: 'auto',
-          spaceBetween: 10
+            slidesPerView: 'auto',
+            spaceBetween: 10
         },
         900: {
             slidesPerView: 4,
             spaceBetween: 10
-          },
-      },
+        },
+    },
 
     // Navigation arrows
     navigation: {
@@ -120,4 +120,18 @@ const swiperPartners = new Swiper('#swiper-partners', {
         nextEl: '#partners-button-next',
         prevEl: '#partners-button-prev'
     }
-}); 
+});
+
+//menu - hamburger
+
+const closeBtn = document.querySelector('#close');
+const modalMenu = document.querySelector('.modal_menu');
+const mobMenu = document.querySelector('#menu');
+
+mobMenu.addEventListener('click', () => {
+    modalMenu.style.display = 'flex';
+});
+
+closeBtn.addEventListener('click', () => {
+    modalMenu.style.display = 'none';
+})
