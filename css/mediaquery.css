@@ -129,6 +129,10 @@
         display: none;
     }
 
+    #menu {
+        display: flex;
+    }
+
     .modal-btn-back {
         display: flex;
         color: #00d4a6;

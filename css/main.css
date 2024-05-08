@@ -64,6 +64,7 @@ a:hover,
 
 #menu {
     cursor: pointer;
+    display: none;
 }
 
 /* ------------INDEX PAGE----------- */
