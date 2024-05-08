@@ -5,6 +5,9 @@ const swiper = new Swiper('.hero-swiper', {
     spaceBetween: 200,
     direction: 'horizontal',
     allowTouchMove: true,
+    autoplay: {
+        delay: 3200,
+    },
     navigation: {
         enabled: true,
         nextEl: '.hero-button-next',
@@ -20,6 +23,9 @@ const swiperAnnouncement = new Swiper('#swiper-announcement', {
     slidesPerView: 'auto',
     loop: true,
     spaceBetween: 10,
+    autoplay: {
+        delay: 2000,
+    },
 
     // Navigation arrows
     navigation: {
@@ -27,7 +33,7 @@ const swiperAnnouncement = new Swiper('#swiper-announcement', {
         nextEl: '#ann-button-next',
         prevEl: '#ann-button-prev'
     }
-}); 
+});
 
 const swiperNews = new Swiper('#swiper-news', {
     // Optional parameters
@@ -35,6 +41,9 @@ const swiperNews = new Swiper('#swiper-news', {
     slidesPerView: 'auto',
     loop: true,
     spaceBetween: 10,
+    autoplay: {
+        delay: 3200,
+    },
 
     // Navigation arrows
     navigation: {
@@ -42,7 +51,7 @@ const swiperNews = new Swiper('#swiper-news', {
         nextEl: '#news-button-next',
         prevEl: '#news-button-prev'
     }
-}); 
+});
 
 const swiperGraduates = new Swiper('#swiper-graduates', {
     // Optional parameters
@@ -50,6 +59,9 @@ const swiperGraduates = new Swiper('#swiper-graduates', {
     slidesPerView: 'auto',
     loop: true,
     spaceBetween: 20,
+    autoplay: {
+        delay: 2000,
+    },
 
     // Navigation arrows
     navigation: {
@@ -57,7 +69,7 @@ const swiperGraduates = new Swiper('#swiper-graduates', {
         nextEl: '#grad-button-next',
         prevEl: '#grad-button-prev'
     }
-}); 
+});
 
 const swiperPartners = new Swiper('#swiper-partners', {
     // Optional parameters
@@ -65,6 +77,9 @@ const swiperPartners = new Swiper('#swiper-partners', {
     slidesPerView: 'auto',
     loop: true,
     spaceBetween: 20,
+    autoplay: {
+        delay: 3200,
+    },
 
     // Navigation arrows
     navigation: {
