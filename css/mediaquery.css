@@ -63,10 +63,18 @@
         height: 400px;
     }
 
+    .swiper-announcement {
+        width: 100%;
+    }
+
+    .cards {
+        gap: 10px;
+    }
+
     .article-swiper .swiper-slide-active,
     .article-swiper .swiper-slide-next,
     .article-swiper .swiper-slide {
-        width: 50% !important;
+        width: calc(50% - 5px) !important;
     }
 
     .article-swiper .swiper-slide-next+.swiper-slide {
@@ -99,10 +107,6 @@
 
     .upper-header-text {
         font-size: 0.588rem;
-    }
-
-    .info-text_mob {
-        width: 50%;
     }
 
     .card__text {
@@ -183,6 +187,8 @@
     .info {
         flex-direction: column;
         gap: 2rem;
+        align-items: center;
+        justify-content: center;
     }
 
     img.logo-img__info {
@@ -193,15 +199,83 @@
         font-size: 3.375rem;
     }
 
-    .info-container {
-        width: 100%;
-    }
 
     .footer {
         padding: 30px 20px 0;
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
+}
 
+@media screen and (max-width: 900px) {
 
+    .hero-swiper,
+    .hero-swiper .swiper-slide {
+        height: 300px;
+    }
+
+    .upper-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .options,
+    .authorities {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .nav-socials {
+        width: 100%;
+        height: unset;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        z-index: 3;
+    }
+    .nav-socials__group {
+        flex-direction: row;
+        position: static;
+    }
+
+    #swiper-partners .swiper-slide-active, #swiper-partners .swiper-slide-next, #swiper-partners .swiper-slide {
+        width: 20% !important;
+    }
+
+    .footer-padding {
+        margin-bottom: 34px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .footer-container__group {
+        gap: 14px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    footer .sub-nav-item a {
+        font-size: 0.5rem;
+    }
+
+    .main-content {
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width: 570px) {
+    .article-swiper .swiper-slide-active,
+    .article-swiper .swiper-slide-next,
+    .article-swiper .swiper-slide {
+        width: 100% !important;
+    }
+
+    .cards-header__title {
+        width: 30px;
+    }
 }

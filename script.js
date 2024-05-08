@@ -32,10 +32,15 @@ const swiperAnnouncement = new Swiper('#swiper-announcement', {
             slidesPerView: 'auto',
             spaceBetween: 10
         },
-        900: {
+        570: {
             slidesPerView: 2,
             spaceBetween: 10
         },
+
+        359: {
+            slidesPerView: 1,
+            spaceBetween: 0
+        }
     },
 
     // Navigation arrows
@@ -61,10 +66,15 @@ const swiperNews = new Swiper('#swiper-news', {
             slidesPerView: 'auto',
             spaceBetween: 10
         },
-        900: {
+        570: {
             slidesPerView: 2,
             spaceBetween: 10
         },
+
+        359: {
+            slidesPerView: 1,
+            spaceBetween: 0
+        }
     },
 
     // Navigation arrows
