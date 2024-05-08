@@ -49,7 +49,6 @@ const swiperGraduates = new Swiper('#swiper-graduates', {
     direction: 'horizontal',
     slidesPerView: 'auto',
     loop: true,
-    spaceBetween: 20,
 
     // Navigation arrows
     navigation: {
