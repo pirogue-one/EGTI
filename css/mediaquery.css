@@ -157,17 +157,31 @@
         cursor: pointer;
     }
 
-    .modal_menu {
+    .modal_menu-container {
+        height: 100%;
         width: 100%;
+        z-index: 20;
+        background-color: rgbA(61, 59, 60, 0.8);
+        display: none;
+        position: fixed;
         top: 0px;
         left: 0px;
-        background: white;
-        position: fixed;
+    }
+
+    .modal_menu {
+        width: 100%;
         justify-content: space-between;
-        z-index: 10;
-        display: none;
         flex-direction: column;
+        padding: 0;
+    }
+
+    .close-btn {
+        padding: 1rem;
+    }
+
+    .modal-menu-nav {
         padding: 2.125rem 2rem 2.125rem 1.813rem;
+        background-color: #ffffff;
     }
 
     .sub-nav,
@@ -291,6 +305,10 @@
     .content-wrapper-footer {
         align-items: flex-start;
     }
+
+    .content-wrapper-footer {
+        gap: 3rem;
+    }
 }
 
 @media screen and (max-width: 570px) {
@@ -392,6 +410,13 @@
     }
 
     .swiper-pagination {
+        display: none;
+    }
+
+    #grad-button-prev,
+    #grad-button-next,
+    #partners-button-prev,
+    #partners-button-next {
         display: none;
     }
 }

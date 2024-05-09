@@ -135,7 +135,7 @@ const swiperPartners = new Swiper('#swiper-partners', {
 //menu - hamburger
 
 const closeBtn = document.querySelector('#close');
-const modalMenu = document.querySelector('.modal_menu');
+const modalMenu = document.querySelector('.modal_menu-container');
 const mobMenu = document.querySelector('#menu');
 
 mobMenu.addEventListener('click', () => {
