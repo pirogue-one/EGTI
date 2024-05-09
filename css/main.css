@@ -312,8 +312,6 @@ a:hover,
 .cards-header {
     display: flex;
     align-items: self-start;
-    /* transform: rotate(-90deg) translateX(-50%);
-    transform-origin: top center; */
     align-self: flex-start;
     flex-direction: column-reverse;
     gap: 0.75rem;
@@ -428,10 +426,18 @@ a:hover,
     width: 20% !important;
 }
 
+#swiper-graduates .swiper-slide-next+.swiper-slide+.swiper-slide+.swiper-slide {
+    opacity: 0.4;
+}
+
 #swiper-partners .swiper-slide-active,
 #swiper-partners .swiper-slide-next,
 #swiper-partners .swiper-slide {
-    width: 12% !important;
+    width: 13% !important;
+}
+
+#swiper-partners .swiper-slide-next+.swiper-slide+.swiper-slide+.swiper-slide+.swiper-slide+.swiper-slide {
+    opacity: 0.4;
 }
 
 #swiper-partners .cards-btn {
