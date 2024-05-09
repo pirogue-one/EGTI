@@ -13,7 +13,7 @@
 
 <body ontouchstart="">
     <div class="header-wrapper">
-        <div class="upper-header-wrapper">
+        <div class="upper-header-wrapper hidden">
             <div class="upper-header content-wrapper">
                 <div class="authorities">
                     <div class="authorities-item">
@@ -58,6 +58,35 @@
                 <ul>
                     <li id="close" class="modal-btn-back">x</li>
                 </ul>
+                <div class="upper-header-wrapper upper-header-wrapper-mob">
+                    <div class="upper-header content-wrapper">
+                        <div class="authorities">
+                            <div class="authorities-item">
+                                <img class="authorities-img" src="images/icon-1.png" class="img" alt="Герб">
+                                <p class="upper-header-text">МИНКУЛЬТУРЫ РФ</p>
+                            </div>
+                            <div class="authorities-item">
+                                <img class="authorities-img" src="images/icon-1.png" alt="Герб">
+                                <p class="upper-header-text">МИНОБРНАУКИ РФ</p>
+                            </div>
+                            <div class="authorities-item">
+                                <p class="upper-header-text">ФУМО «СЦЕНИЧЕСКИЕ ИСКУССТВА</br>И ЛИТЕРАТУРНОЕ ТВОРЧЕСТВО»
+                                </p>
+                            </div>
+                        </div>
+                        <div class="options">
+                            <a href="/" class="upper-header-text blue-text">Запись на курсы</a>
+                            <div class="log-in">
+                                <img src="images/icon-2.png" class="log-in-img" alt="Пользователь">
+                                <a href="#" class="upper-header-text">ЭИОС</a>
+                            </div>
+                            <div class="lang">
+                                <a href="#" class="upper-header-text">RUS</a>
+                                <a href="#" class="upper-header-text">ENG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <ul class="main-nav">
                     <li class="main-nav-item narrow-text"><a href="">о егти</a></li>
                     <li class="main-nav-item narrow-text"><a href="">образование</a></li>
@@ -201,16 +230,22 @@
                 </div>
             </section>
             <section class="info">
-                <div class="info-container">
+                <div class="info-container info-container-center">
                     <img class="logo-img logo-img__info" src="./images/logo.png" alt="logo">
                     <p class="info-text info-text_mob">Крупнейший региональный театральный ВУЗ России <br />
                         Ведет свою историю с 1932 года</p>
                 </div>
                 <div class="info-container">
-                    <p class="info-text"><span class="narrow-text info-text-span text-color__black">5000</span>НАШИХ
-                        ВЫПУСКНИКОВ</p>
-                    <p class="info-text"><span class="narrow-text info-text-span text-color__black">35</span><span
-                            class="narrow-text text-32">ЛЕТ</span>ВДОХНОВЕНИЯ И УСПЕХА</p>
+                    <div class="info-container_numbers">
+                        <p class="narrow-text info-text-span text-color__black" id="text-5000">5000</p>
+                        <p class="info-text">НАШИХ
+                            ВЫПУСКНИКОВ</p>
+                    </div>
+                    <div class="info-container_numbers">
+                        <p class="narrow-text info-text-span text-color__black" id="text-35">35<span
+                                class="narrow-text text-32">&nbsp;ЛЕТ</span></p>
+                        <p class="info-text">ВДОХНОВЕНИЯ И УСПЕХА</p>
+                    </div>
                 </div>
             </section>
             <section class="blocks">
@@ -306,7 +341,7 @@
                                 <img class="card__image-v" src="./images/v1.png" alt="выпускник">
                             </div>
                             <div class="card__text-wrapper">
-                                <p class="narrow-text text-24 text-color__black">Михаил Быков</p>
+                                <p class="narrow-text text-24 text-color__black text-24-center">Михаил Быков</p>
                             </div>
                         </div>
                         <div class="card swiper-slide swiper-slide__graduates">
@@ -315,7 +350,7 @@
                                 <img class="card__image-v" src="./images/v2.png" alt="выпускник">
                             </div>
                             <div class="card__text-wrapper">
-                                <p class="narrow-text text-24 text-color__black">Вячеслав Анисимов</p>
+                                <p class="narrow-text text-24 text-color__black text-24-center">Вячеслав Анисимов</p>
                             </div>
                         </div>
                         <div class="card swiper-slide swiper-slide__graduates">
@@ -324,7 +359,7 @@
                                 <img class="card__image-v" src="./images/v3.png" alt="выпускник">
                             </div>
                             <div class="card__text-wrapper">
-                                <p class="narrow-text text-24 text-color__black">Надежда Холмогорова</p>
+                                <p class="narrow-text text-24 text-color__black text-24-center">Надежда Холмогорова</p>
                             </div>
                         </div>
                         <div class="card swiper-slide swiper-slide__graduates">
@@ -333,7 +368,7 @@
                                 <img class="card__image-v" src="./images/v4.png" alt="выпускник">
                             </div>
                             <div class="card__text-wrapper">
-                                <p class="narrow-text text-24 text-color__black">Николай Коляда</p>
+                                <p class="narrow-text text-24 text-color__black text-24-center">Николай Коляда</p>
                             </div>
                         </div>
                         <div class="card swiper-slide swiper-slide__graduates">
@@ -342,7 +377,7 @@
                                 <img class="card__image-v" src="./images/v1.png" alt="выпускник">
                             </div>
                             <div class="card__text-wrapper">
-                                <p class="narrow-text text-24 text-color__black">Михаил Быков</p>
+                                <p class="narrow-text text-24 text-color__black text-24-center">Михаил Быков</p>
                             </div>
                         </div>
                         <div class="card swiper-slide swiper-slide__graduates">
@@ -351,7 +386,7 @@
                                 <img class="card__image-v" src="./images/v1.png" alt="выпускник">
                             </div>
                             <div class="card__text-wrapper">
-                                <p class="narrow-text text-24 text-color__black">Михаил Быков</p>
+                                <p class="narrow-text text-24 text-color__black text-24-center">Михаил Быков</p>
                             </div>
                         </div>
                     </div>
@@ -455,7 +490,7 @@
         </div>
     </main>
     <footer>
-        <div class="header content-wrapper">
+        <div class="header content-wrapper content-wrapper-footer">
             <div>
                 <img src="./images/footer-logo.png" alt="Лого">
             </div>

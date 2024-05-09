@@ -457,6 +457,9 @@ a:hover,
 .info-container {
     display: flex;
     gap: 2rem;
+}
+
+.info-container-center {
     align-items: center;
 }
 
@@ -481,6 +484,20 @@ a:hover,
 
 img.logo-img__info {
     width: 114px;
+}
+
+.info-container_numbers {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+#text-5000 {
+    line-height: 82%;
+}
+
+#text-35 {
+    line-height: 45%;
 }
 
 /* blocks */
