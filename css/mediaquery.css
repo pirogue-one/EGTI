@@ -278,4 +278,35 @@
     .cards-header__title {
         width: 30px;
     }
+
+    .authorities {
+        flex-wrap: wrap;
+    }
+
+    .authorities-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .upper-header-text {
+        font-size: 0.488rem;
+    }
+
+    .info-text {
+        font-size: 0.613rem;
+    }
+
+    #swiper-news .card__text-wrapper {
+        padding: 10px 13px;
+    }
+
+    .text-16 {
+        font-size: 0.5rem;
+        text-align: right;
+    }
+
+    .text-24 {
+        font-size: 0.9rem;
+        text-align: center;
+    }
 }
