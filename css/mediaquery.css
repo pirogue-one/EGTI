@@ -177,11 +177,17 @@
 
     .close-btn {
         padding: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
     .modal-menu-nav {
         padding: 2.125rem 2rem 2.125rem 1.813rem;
         background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
 
     .sub-nav,
@@ -232,6 +238,7 @@
 
     .upper-header-wrapper-mob {
         width: 100%;
+        padding: 55px 0 34px;
     }
 }
 
